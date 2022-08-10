@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.glyceryl6.enhanced.mixin",
+  "refmap": "mixins.vwe.refmap.json",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "MixinAbstractArrow",
+    "MixinEnderMan"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
